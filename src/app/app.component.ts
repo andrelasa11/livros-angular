@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  // standalone: true // Comente ou remova esta linha
 })
 export class AppComponent {
   title = 'livros-angular';
